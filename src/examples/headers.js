@@ -23,7 +23,7 @@ const Headers = () => {
 
   return (
     <section className='section text-center'>
-      <h3>headers</h3>
+      <h3> how to setup headers</h3>
       <button className='btn' onClick={fetchDadJoke}>
         random joke
       </button>
