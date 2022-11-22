@@ -24,7 +24,7 @@ const FirstRequest = () => {
   }, []);
 
   const showData = () => {
-    setShowProduct(!products);
+    setShowProduct(true);
   };
 
   return (

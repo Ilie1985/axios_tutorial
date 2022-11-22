@@ -4,7 +4,7 @@ import FirstRequest from "./examples/1stRequest";
 import Headers from "./examples/headers";
 import PostRequest from "./examples/postRequest";
 import GlobalInstance from "./examples/global-Instance";
-import "./axios/global"
+import CustomInstance from "./examples/custom-instance"
 
 function App() {
   return (
@@ -26,6 +26,10 @@ function App() {
       <br />
       <hr />
       <GlobalInstance/>
+      <br />
+      <br />
+      <hr />
+      <CustomInstance/>
       <br />
       <br />
       <hr />
