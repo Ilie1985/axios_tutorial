@@ -1,10 +1,18 @@
-import React from "react"
+import React from "react";
 import Title from "./components/Title";
+import FirstRequest from "./examples/1stRequest";
 
 function App() {
   return (
     <main>
-     <Title/>
+      <Title />
+      <br />
+      <br />
+      <hr />
+      <FirstRequest />
+      <br />
+      <br />
+      <hr />
     </main>
   );
 }
