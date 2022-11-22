@@ -3,6 +3,8 @@ import Title from "./components/Title";
 import FirstRequest from "./examples/1stRequest";
 import Headers from "./examples/headers";
 import PostRequest from "./examples/postRequest";
+import GlobalInstance from "./examples/global-Instance";
+import "./axios/global"
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
       <br />
       <br />
       <hr />
-      {/* <FirstRequest /> */}
+      <FirstRequest />
       <br />
       <br />
       <hr />
@@ -20,6 +22,10 @@ function App() {
       <br />
       <hr />
       <PostRequest/>
+      <br />
+      <br />
+      <hr />
+      <GlobalInstance/>
       <br />
       <br />
       <hr />
