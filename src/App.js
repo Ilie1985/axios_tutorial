@@ -5,6 +5,7 @@ import Headers from "./examples/headers";
 import PostRequest from "./examples/postRequest";
 import GlobalInstance from "./examples/global-Instance";
 import CustomInstance from "./examples/custom-instance"
+import Interceptors from "./examples/interceptors";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <br />
       <br />
       <hr />
+      <Interceptors/>
     </main>
   );
 }
